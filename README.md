@@ -1,9 +1,10 @@
-# How to set up my env
-
-1. Make sure that your shell is zsh.
-if not change it to zsh.
+# Arch Dotfiles
+1. Install the must have apps
 ```bash
-sudo apt-get install zsh
+pacman -S stow zsh tmux neovim lazyvim
+```
+
+2. Set shell to `zsh` 
+```bash
 chsh -s $(which zsh)
 ```
-2. 
